@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url("./clock-pattern.png"); */
+    /* background-size: 100% auto;
+    background-repeat: no-repeat; */
+    background: url("./clock-pattern.png") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.main{
+    background-color: #ccc;
+    width:560px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+}
+
+.badge{
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 180px;
+    top: -15px;
+    left: 35%; 
+}
+
+.clock{
+    background: #EBEBEB;
+    text-align: center;
+    font-size: 55px;
+    height : 100%;
+    padding-top: 35px;
+    font-family: Orbitron;
+    border-radius: 4px;
+}
+
+.thought{
+    background-color: #fffff4;
+    width:550px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+
+.titlethought{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: Pacifico;
+}
+
+
+.actualthought{
+    text-align: center;
+    font-family: Cairo;
+
+}
