@@ -1,7 +1,10 @@
 function clock() {
     const fullDate = new Date();
 
-    var deadline = new Date("July 6, 2019 15:37:25").getTime();
+    var targetdate = new Date("July 7, 2019 15:37:25");
+
+    var deadline = targetdate.getTime();
+    var datenow = new Date();
 
     var hours = fullDate.getHours();
     var mins = fullDate.getMinutes();
@@ -38,6 +41,14 @@ function clock() {
     document.getElementById('minute').innerHTML = ": "+ mins;
     document.getElementById('second').innerHTML = ": "+secs;
     
+    if (targetdate == datenow){
+        console.log("Renee is back");
+        window.location.href = '...';
+    }
+
+    console.log(targetdate);
+    console.log(datenow);
+
 }
 
 setInterval(clock, 100);
