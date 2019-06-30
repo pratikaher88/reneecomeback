@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url("./clock-pattern.png"); */
+    /* background-size: 100% auto;
+    background-repeat: no-repeat; */
+    background: url("./clock-pattern.png") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+#borderimg{
+    border: 40px solid transparent;
+    border-image: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg") 30% round;
+}
+
+.main{
+    background-color: #ccc;
+    width: 80%;
+    margin: 100px auto;
+    height: 50%;
+    position: relative;
+    padding: 30px;
+}
+
+.badge{
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    width: 190px;
+    top: 65px;
+    left: 43%;
+}
+
+.clock{
+    background: #EBEBEB;
+    text-align: center;
+    font-size: 55px;
+    height : 100%;
+    padding-top: 35px;
+    font-family: Orbitron;
+    border-radius: 4px;
+}
+
+.thought{
+    background-color: #fffff4;
+    width:550px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 60px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+
+.titlethought{
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 10px;
+    font-family: Pacifico;
+}
+
+
+.actualthought{
+    text-align: center;
+    font-family: Cairo;
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
