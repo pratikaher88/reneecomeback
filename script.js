@@ -41,9 +41,9 @@ function clock() {
     document.getElementById('minute').innerHTML = ": "+ mins;
     document.getElementById('second').innerHTML = ": "+secs;
     
-    if (targetdate == datenow){
+    if (targetdate != datenow){
         console.log("Renee is back");
-        window.location.href = '...';
+        window.location.href = 'reneecameback.html';
     }
 
     console.log(targetdate);
