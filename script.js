@@ -41,10 +41,10 @@ function clock() {
     document.getElementById('minute').innerHTML = ": "+ mins;
     document.getElementById('second').innerHTML = ": "+secs;
     
-    if (targetdate < datenow){
-        console.log("Renee is back");
-        window.location.href = 'https://pratikaher88.github.io/reneecomeback/reneecameback.html';
-    }
+    // if (targetdate < datenow){
+    //     console.log("Renee is back");
+    //     window.location.href = 'https://pratikaher88.github.io/reneecomeback/reneecameback.html';
+    // }
 
     console.log(targetdate);
     console.log(datenow);
