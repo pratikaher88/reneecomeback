@@ -43,7 +43,7 @@ function clock() {
     
     if (targetdate < datenow){
         console.log("Renee is back");
-        window.location.href = 'reneecameback.html';
+        window.location.href = 'https://pratikaher88.github.io/reneecomeback/reneecameback.html';
     }
 
     console.log(targetdate);
